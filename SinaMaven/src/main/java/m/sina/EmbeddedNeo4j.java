@@ -45,13 +45,14 @@ public class EmbeddedNeo4j {
         graphDb.shutdown();
     }
 
-    public Node createNode(String id, String screen_name, String relation){// relation:  {KNOW : 0, FRIEND1 : 1, FRIEND2 : 2, FRIEND3 : 3}
+    public Node createNode(String id, String screen_name, String relation, Integer indegree){// relation:  {KNOW : 0, FRIEND1 : 1, FRIEND2 : 2, FRIEND3 : 3}
         Node res = null;
         try (Transaction tx = graphDb.beginTx()) {
             res = graphDb.createNode();
             res.setProperty("id", id);
             res.setProperty("name", screen_name);
             res.setProperty("relation", relation);
+            res.setProperty("indegree",indegree);
             tx.success();
 
         }
@@ -107,10 +108,19 @@ public class EmbeddedNeo4j {
         }
         return null;
     }
-    public void UpdateRelNum(Node cur, String relNum){
+    public void updateRelNum(Node cur, String relNum){
         try(Transaction tx = graphDb.beginTx()) {
             if(Integer.valueOf(cur.getProperty("relation").toString())<Integer.valueOf(relNum)){
                 cur.setProperty("relation",relNum);
+            }
+
+            tx.success();
+        }
+    }
+    public void updataIndegree(Node cur, Integer indegree){
+        try(Transaction tx = graphDb.beginTx()) {
+            if(Integer.valueOf((Integer) cur.getProperty("indegree"))<indegree){
+                cur.setProperty("indegree",indegree);
             }
 
             tx.success();

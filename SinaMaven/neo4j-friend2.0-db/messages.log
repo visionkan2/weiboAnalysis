@@ -1,6 +1,6 @@
-2015-03-31 01:40:20.125+0000 INFO  [org.neo4j]: No locking implementation specified, defaulting to 'community'
-2015-03-31 01:40:20.260+0000 INFO  [org.neo4j]: --- INITIALIZED diagnostics START ---
-2015-03-31 01:40:20.262+0000 INFO  [org.neo4j]: Neo4j Kernel properties:
+2015-04-01 18:11:34.355+0000 INFO  [org.neo4j]: No locking implementation specified, defaulting to 'community'
+2015-04-01 18:11:34.449+0000 INFO  [org.neo4j]: --- INITIALIZED diagnostics START ---
+2015-04-01 18:11:34.451+0000 INFO  [org.neo4j]: Neo4j Kernel properties:
     neostore.propertystore.db.mapped_memory=663M
     neostore.nodestore.db.mapped_memory=184M
     neostore.relationshipstore.db.mapped_memory=812M
@@ -8,7 +8,7 @@
     store_dir=neo4j-friend2.0-db
     neostore.propertystore.db.arrays.mapped_memory=639M
     ephemeral=false
-2015-03-31 01:40:20.265+0000 INFO  [org.neo4j]: Diagnostics providers:
+2015-04-01 18:11:34.453+0000 INFO  [org.neo4j]: Diagnostics providers:
     org.neo4j.kernel.configuration.Config
     org.neo4j.kernel.info.DiagnosticsManager
     SYSTEM_MEMORY
@@ -19,37 +19,37 @@
     LIBRARY_PATH
     SYSTEM_PROPERTIES
     NETWORK
-2015-03-31 01:40:20.265+0000 INFO  [org.neo4j]: System memory information:
+2015-04-01 18:11:34.453+0000 INFO  [org.neo4j]: System memory information:
     Total Physical memory: 8.00 GB
-    Free Physical memory: 28.91 MB
+    Free Physical memory: 434.87 MB
     Committed virtual memory: 4.64 GB
     Total swap space: 1.00 GB
-    Free swap space: 830.75 MB
-2015-03-31 01:40:20.269+0000 INFO  [org.neo4j]: JVM memory information:
-    Free  memory: 112.31 MB
+    Free swap space: 907.50 MB
+2015-04-01 18:11:34.456+0000 INFO  [org.neo4j]: JVM memory information:
+    Free  memory: 112.93 MB
     Total memory: 123.00 MB
     Max   memory: 1.78 GB
     Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
     Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
-    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=722.25 kB, max=48.00 MB, threshold=0.00 B
-    Memory Pool: PS Eden Space (Heap memory): committed=33.00 MB, used=4.54 MB, max=673.00 MB, threshold=?
-    Memory Pool: PS Survivor Space (Heap memory): committed=5.00 MB, used=4.99 MB, max=5.00 MB, threshold=?
-    Memory Pool: PS Old Gen (Heap memory): committed=85.00 MB, used=1.16 MB, max=1.33 GB, threshold=0.00 B
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=719.94 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=33.00 MB, used=3.89 MB, max=673.00 MB, threshold=?
+    Memory Pool: PS Survivor Space (Heap memory): committed=5.00 MB, used=4.98 MB, max=5.00 MB, threshold=?
+    Memory Pool: PS Old Gen (Heap memory): committed=85.00 MB, used=1.20 MB, max=1.33 GB, threshold=0.00 B
     Memory Pool: PS Perm Gen (Non-heap memory): committed=21.00 MB, used=10.17 MB, max=82.00 MB, threshold=0.00 B
-2015-03-31 01:40:20.275+0000 INFO  [org.neo4j]: Operating system information:
+2015-04-01 18:11:34.461+0000 INFO  [org.neo4j]: Operating system information:
     Operating System: Mac OS X; version: 10.10.2; arch: x86_64; cpus: 4
     Max number of file descriptors: 10240
     Number of open file descriptors: 73
-    Process id: 10110@VincentdeMacBook-Pro.local
+    Process id: 3420@VincentdeMacBook-Pro.local
     Byte order: LITTLE_ENDIAN
     Local timezone: America/New_York
-2015-03-31 01:40:20.278+0000 INFO  [org.neo4j]: JVM information:
+2015-04-01 18:11:34.463+0000 INFO  [org.neo4j]: JVM information:
     VM Name: Java HotSpot(TM) 64-Bit Server VM
     VM Vendor: Oracle Corporation
     VM Version: 24.45-b08
     JIT compiler: HotSpot 64-Bit Tiered Compilers
-    VM Arguments: [-Didea.launcher.port=7532, -Didea.launcher.bin.path=/Applications/IntelliJ IDEA 13 CE.app/bin, -Dfile.encoding=UTF-8]
-2015-03-31 01:40:20.279+0000 INFO  [org.neo4j]: Java classpath:
+    VM Arguments: [-Didea.launcher.port=7533, -Didea.launcher.bin.path=/Applications/IntelliJ IDEA 13 CE.app/bin, -Dfile.encoding=UTF-8]
+2015-04-01 18:11:34.464+0000 INFO  [org.neo4j]: Java classpath:
      [classpath + loader.0] file:/Users/Vincent/.m2/repository/org/neo4j/neo4j-udc/2.1.6/neo4j-udc-2.1.6.jar
      [loader.0] file:/Applications/IntelliJ%20IDEA%2013%20CE.app/lib/idea_rt.jar
      [bootstrap + classpath + loader.0] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/charsets.jar
@@ -83,7 +83,6 @@
      [classpath + loader.0] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/lib/ant-javafx.jar
      [loader.1] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
      [loader.1] file:/System/Library/Java/Extensions/j3dcore.jar
-     [classpath + loader.0] file:/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/target/classes/
      [loader.1] file:/usr/lib/java/libjdns_sd.jnilib
      [classpath + loader.0] file:/Users/Vincent/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
      [classpath + loader.0] file:/Users/Vincent/.m2/repository/org/neo4j/neo4j-cypher-commons/2.1.6/neo4j-cypher-commons-2.1.6.jar
@@ -110,6 +109,7 @@
      [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/ext/sunec.jar
      [classpath + loader.0] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/plugin.jar
      [classpath + loader.0] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jfxrt.jar
+     [classpath + loader.0] file:/Users/Vincent/Desktop/weiboAnalysis/SinaMaven/target/classes/
      [classpath + loader.0] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/deploy.jar
      [classpath + loader.0] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/management-agent.jar
      [bootstrap + classpath + loader.0] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/jce.jar
@@ -120,23 +120,23 @@
      [classpath + loader.0] file:/Users/Vincent/.m2/repository/org/neo4j/neo4j/2.1.6/neo4j-2.1.6.jar
      [classpath + loader.0] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/lib/dt.jar
      [classpath + loader.0] file:/Users/Vincent/.m2/repository/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar
-2015-03-31 01:40:20.283+0000 INFO  [org.neo4j]: Library path:
+2015-04-01 18:11:34.467+0000 INFO  [org.neo4j]: Library path:
     /Users/Vincent/Library/Java/Extensions
     /Library/Java/Extensions
     /Network/Library/Java/Extensions
     /System/Library/Java/Extensions
     /usr/lib/java
-    /Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven
-2015-03-31 01:40:20.283+0000 INFO  [org.neo4j]: System.properties:
+    /Users/Vincent/Desktop/weiboAnalysis/SinaMaven
+2015-04-01 18:11:34.468+0000 INFO  [org.neo4j]: System.properties:
     sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib
     gopherProxySet = false
     path.separator = :
-    idea.launcher.port = 7532
+    idea.launcher.port = 7533
     file.encoding.pkg = sun.io
     user.country = CN
     sun.java.launcher = SUN_STANDARD
     sun.os.patch.level = unknown
-    user.dir = /Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven
+    user.dir = /Users/Vincent/Desktop/weiboAnalysis/SinaMaven
     sun.jnu.encoding = UTF-8
     sun.management.compiler = HotSpot 64-Bit Tiered Compilers
     user.home = /Users/Vincent
@@ -152,9 +152,9 @@
     sun.io.unicode.encoding = UnicodeBig
     sun.cpu.endian = little
     sun.cpu.isalist = 
-2015-03-31 01:40:20.284+0000 INFO  [org.neo4j]: Network information:
+2015-04-01 18:11:34.469+0000 INFO  [org.neo4j]: Network information:
     Interface awdl0:
-        address: fe80:0:0:0:4496:bfff:fe85:468%9
+        address: fe80:0:0:0:d4bb:40ff:fe8c:f428%8
     Interface en0:
         address: fe80:0:0:0:bae8:56ff:fe47:5ad4%4
         address: 192.168.0.2
@@ -162,88 +162,88 @@
         address: fe80:0:0:0:0:0:0:1%1
         address: 0:0:0:0:0:0:0:1
         address: 127.0.0.1
-2015-03-31 01:40:20.285+0000 INFO  [org.neo4j]: --- INITIALIZED diagnostics END ---
-2015-03-31 01:40:20.525+0000 INFO  [org.neo4j]: Creating new db @ neo4j-friend2.0-db/neostore
-2015-03-31 01:40:20.564+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
-2015-03-31 01:40:20.565+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
-2015-03-31 01:40:20.566+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.567+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.571+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
-2015-03-31 01:40:20.572+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
-2015-03-31 01:40:20.572+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.573+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.579+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
-2015-03-31 01:40:20.579+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
-2015-03-31 01:40:20.580+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
-2015-03-31 01:40:20.580+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
-2015-03-31 01:40:20.581+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.strings] brickCount=0 brickSize=590336b mappedMem=590348288b (storeSize=128b)
-2015-03-31 01:40:20.581+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
-2015-03-31 01:40:20.581+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
-2015-03-31 01:40:20.582+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.arrays] brickCount=0 brickSize=669952b mappedMem=670040064b (storeSize=128b)
-2015-03-31 01:40:20.585+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db] brickCount=0 brickSize=6952042b mappedMem=695205888b (storeSize=0b)
-2015-03-31 01:40:20.589+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshipstore.db] brickCount=0 brickSize=8514416b mappedMem=851443712b (storeSize=0b)
-2015-03-31 01:40:20.589+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
-2015-03-31 01:40:20.593+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.nodestore.db] brickCount=0 brickSize=1929375b mappedMem=192937984b (storeSize=0b)
-2015-03-31 01:40:20.593+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
-2015-03-31 01:40:20.595+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshipgroupstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=25b)
-2015-03-31 01:40:20.596+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
-2015-03-31 01:40:20.602+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.603+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.604+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.604+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.605+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.606+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.606+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.607+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.608+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.610+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.610+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.611+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.612+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.612+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshipgroupstore.db hit=0 miss=0 switches=0 ooe=0
-2015-03-31 01:40:20.613+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore hit=0 miss=10 switches=0 ooe=0
-2015-03-31 01:40:20.623+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
-2015-03-31 01:40:20.624+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
-2015-03-31 01:40:20.625+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
-2015-03-31 01:40:20.625+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
-2015-03-31 01:40:20.626+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.strings] brickCount=0 brickSize=590336b mappedMem=590348288b (storeSize=128b)
-2015-03-31 01:40:20.626+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
-2015-03-31 01:40:20.627+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
-2015-03-31 01:40:20.627+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.arrays] brickCount=0 brickSize=669952b mappedMem=670040064b (storeSize=128b)
-2015-03-31 01:40:20.627+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db] brickCount=0 brickSize=6952042b mappedMem=695205888b (storeSize=0b)
-2015-03-31 01:40:20.628+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshipstore.db] brickCount=0 brickSize=8514416b mappedMem=851443712b (storeSize=0b)
-2015-03-31 01:40:20.628+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
-2015-03-31 01:40:20.628+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.nodestore.db] brickCount=0 brickSize=1929375b mappedMem=192937984b (storeSize=0b)
-2015-03-31 01:40:20.629+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
-2015-03-31 01:40:20.629+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshipgroupstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=25b)
-2015-03-31 01:40:20.629+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=81b)
-2015-03-31 01:40:20.729+0000 INFO  [org.neo4j]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
-2015-03-31 01:40:20.774+0000 INFO  [org.neo4j]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
-2015-03-31 01:40:20.900+0000 INFO  [org.neo4j]: Opened logical log [neo4j-friend2.0-db/nioneo_logical.log.1] version=0, lastTxId=1 (clean)
-2015-03-31 01:40:20.903+0000 INFO  [org.neo4j]: Rebuilding lucene scan store, this may take a while
-2015-03-31 01:40:20.905+0000 INFO  [org.neo4j]: Lucene scan store rebuilt (roughly -1 nodes)
-2015-03-31 01:40:20.908+0000 INFO  [org.neo4j]: TM new log: tm_tx_log.1
-2015-03-31 01:40:20.915+0000 INFO  [org.neo4j]: Kernel health set to OK
-2015-03-31 01:40:20.935+0000 INFO  [org.neo4j]: Opened logical log [neo4j-friend2.0-db/index/lucene.log.1] version=0, lastTxId=1 (clean)
-2015-03-31 01:40:20.942+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
-2015-03-31 01:40:20.942+0000 INFO  [org.neo4j]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId{creationTime=1427766020531, randomId=8382701200021680568, storeVersion=14406081294923270, upgradeTime=1427766020531, upgradeId=8382701200021680568}
-2015-03-31 01:40:20.943+0000 INFO  [org.neo4j]: Kernel version: Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.1.6
-2015-03-31 01:40:20.943+0000 INFO  [org.neo4j]: Neo4j component versions:
-2015-03-31 01:40:20.950+0000 INFO  [org.neo4j]:   Neo4j - JMX support (neo4j-jmx), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
-2015-03-31 01:40:20.951+0000 INFO  [org.neo4j]:   Neo4j - Lucene Index (neo4j-lucene-index), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
-2015-03-31 01:40:20.951+0000 INFO  [org.neo4j]:   Neo4j - Graph Matching (neo4j-graph-matching), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
-2015-03-31 01:40:20.951+0000 INFO  [org.neo4j]:   Neo4j - Cypher Compiler 2.1 (neo4j-cypher-compiler-2.1), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
-2015-03-31 01:40:20.951+0000 INFO  [org.neo4j]:   Neo4j - Cypher (neo4j-cypher), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
-2015-03-31 01:40:20.951+0000 INFO  [org.neo4j]:   Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
-2015-03-31 01:40:20.951+0000 INFO  [org.neo4j]:   Neo4j - Cypher Compiler 2.0 (neo4j-cypher-compiler-2.0), version: 2.0.3; revision: 2.0.3:2.0-maint:72/307c563c11b75fdc71cfa6df05daf9b08d6c37dc
-2015-03-31 01:40:20.951+0000 INFO  [org.neo4j]:   Neo4j - Graph Algorithms (neo4j-graph-algo), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
-2015-03-31 01:40:20.951+0000 INFO  [org.neo4j]:   Neo4j Community (neo4j), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
-2015-03-31 01:40:20.967+0000 INFO  [org.neo4j]:   Neo4j - Cypher Compiler 1.9 (neo4j-cypher-compiler-1.9), version: 2.0.3; revision: 2.0.3:2.0-maint:72/307c563c11b75fdc71cfa6df05daf9b08d6c37dc
-2015-03-31 01:40:20.969+0000 INFO  [org.neo4j]:   neo4j-udc, version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
-2015-03-31 01:40:20.972+0000 INFO  [org.neo4j]:   Neo4j - Cypher Commons (neo4j-cypher-commons), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
-2015-03-31 01:40:20.972+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
-2015-03-31 01:40:20.976+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
-2015-03-31 01:40:20.976+0000 INFO  [org.neo4j]: Store versions:
+2015-04-01 18:11:34.470+0000 INFO  [org.neo4j]: --- INITIALIZED diagnostics END ---
+2015-04-01 18:11:34.617+0000 INFO  [org.neo4j]: Creating new db @ neo4j-friend2.0-db/neostore
+2015-04-01 18:11:34.652+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-04-01 18:11:34.653+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-04-01 18:11:34.653+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.655+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.657+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-04-01 18:11:34.659+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-04-01 18:11:34.659+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.660+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.666+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-04-01 18:11:34.666+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-04-01 18:11:34.667+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-04-01 18:11:34.667+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-04-01 18:11:34.668+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.strings] brickCount=0 brickSize=590336b mappedMem=590348288b (storeSize=128b)
+2015-04-01 18:11:34.668+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-04-01 18:11:34.669+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-04-01 18:11:34.670+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.arrays] brickCount=0 brickSize=669952b mappedMem=670040064b (storeSize=128b)
+2015-04-01 18:11:34.675+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db] brickCount=0 brickSize=6952042b mappedMem=695205888b (storeSize=0b)
+2015-04-01 18:11:34.679+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshipstore.db] brickCount=0 brickSize=8514416b mappedMem=851443712b (storeSize=0b)
+2015-04-01 18:11:34.680+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2015-04-01 18:11:34.683+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.nodestore.db] brickCount=0 brickSize=1929375b mappedMem=192937984b (storeSize=0b)
+2015-04-01 18:11:34.684+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2015-04-01 18:11:34.686+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshipgroupstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=25b)
+2015-04-01 18:11:34.687+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-04-01 18:11:34.693+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.694+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.694+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.695+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.695+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.696+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.697+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.699+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.700+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.701+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.702+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.703+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.704+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.705+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshipgroupstore.db hit=0 miss=0 switches=0 ooe=0
+2015-04-01 18:11:34.706+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore hit=0 miss=10 switches=0 ooe=0
+2015-04-01 18:11:34.718+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-04-01 18:11:34.719+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-04-01 18:11:34.719+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-04-01 18:11:34.720+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-04-01 18:11:34.720+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.strings] brickCount=0 brickSize=590336b mappedMem=590348288b (storeSize=128b)
+2015-04-01 18:11:34.721+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-04-01 18:11:34.721+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-04-01 18:11:34.722+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db.arrays] brickCount=0 brickSize=669952b mappedMem=670040064b (storeSize=128b)
+2015-04-01 18:11:34.722+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.propertystore.db] brickCount=0 brickSize=6952042b mappedMem=695205888b (storeSize=0b)
+2015-04-01 18:11:34.723+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshipstore.db] brickCount=0 brickSize=8514416b mappedMem=851443712b (storeSize=0b)
+2015-04-01 18:11:34.723+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2015-04-01 18:11:34.724+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.nodestore.db] brickCount=0 brickSize=1929375b mappedMem=192937984b (storeSize=0b)
+2015-04-01 18:11:34.724+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2015-04-01 18:11:34.725+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore.relationshipgroupstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=25b)
+2015-04-01 18:11:34.726+0000 INFO  [org.neo4j]: [neo4j-friend2.0-db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=81b)
+2015-04-01 18:11:34.820+0000 INFO  [org.neo4j]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2015-04-01 18:11:34.844+0000 INFO  [org.neo4j]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2015-04-01 18:11:34.918+0000 INFO  [org.neo4j]: Opened logical log [neo4j-friend2.0-db/nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2015-04-01 18:11:34.920+0000 INFO  [org.neo4j]: Rebuilding lucene scan store, this may take a while
+2015-04-01 18:11:34.922+0000 INFO  [org.neo4j]: Lucene scan store rebuilt (roughly -1 nodes)
+2015-04-01 18:11:34.925+0000 INFO  [org.neo4j]: TM new log: tm_tx_log.1
+2015-04-01 18:11:34.932+0000 INFO  [org.neo4j]: Kernel health set to OK
+2015-04-01 18:11:34.951+0000 INFO  [org.neo4j]: Opened logical log [neo4j-friend2.0-db/index/lucene.log.1] version=0, lastTxId=1 (clean)
+2015-04-01 18:11:34.956+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2015-04-01 18:11:34.956+0000 INFO  [org.neo4j]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId{creationTime=1427911894624, randomId=1444016510774781031, storeVersion=14406081294923270, upgradeTime=1427911894624, upgradeId=1444016510774781031}
+2015-04-01 18:11:34.956+0000 INFO  [org.neo4j]: Kernel version: Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.1.6
+2015-04-01 18:11:34.956+0000 INFO  [org.neo4j]: Neo4j component versions:
+2015-04-01 18:11:34.964+0000 INFO  [org.neo4j]:   Neo4j - JMX support (neo4j-jmx), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
+2015-04-01 18:11:34.965+0000 INFO  [org.neo4j]:   Neo4j - Lucene Index (neo4j-lucene-index), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
+2015-04-01 18:11:34.965+0000 INFO  [org.neo4j]:   Neo4j - Graph Matching (neo4j-graph-matching), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
+2015-04-01 18:11:34.965+0000 INFO  [org.neo4j]:   Neo4j - Cypher Compiler 2.1 (neo4j-cypher-compiler-2.1), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
+2015-04-01 18:11:34.965+0000 INFO  [org.neo4j]:   Neo4j - Cypher (neo4j-cypher), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
+2015-04-01 18:11:34.965+0000 INFO  [org.neo4j]:   Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
+2015-04-01 18:11:34.965+0000 INFO  [org.neo4j]:   Neo4j - Cypher Compiler 2.0 (neo4j-cypher-compiler-2.0), version: 2.0.3; revision: 2.0.3:2.0-maint:72/307c563c11b75fdc71cfa6df05daf9b08d6c37dc
+2015-04-01 18:11:34.965+0000 INFO  [org.neo4j]:   Neo4j - Graph Algorithms (neo4j-graph-algo), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
+2015-04-01 18:11:34.965+0000 INFO  [org.neo4j]:   Neo4j Community (neo4j), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
+2015-04-01 18:11:34.966+0000 INFO  [org.neo4j]:   Neo4j - Cypher Compiler 1.9 (neo4j-cypher-compiler-1.9), version: 2.0.3; revision: 2.0.3:2.0-maint:72/307c563c11b75fdc71cfa6df05daf9b08d6c37dc
+2015-04-01 18:11:34.966+0000 INFO  [org.neo4j]:   neo4j-udc, version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
+2015-04-01 18:11:34.966+0000 INFO  [org.neo4j]:   Neo4j - Cypher Commons (neo4j-cypher-commons), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
+2015-04-01 18:11:34.966+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2015-04-01 18:11:34.971+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2015-04-01 18:11:34.971+0000 INFO  [org.neo4j]: Store versions:
     Store versions:
       NeoStore v0.A.3
       SchemaStore v0.A.3
@@ -256,9 +256,9 @@
       StringPropertyStore v0.A.3
       ArrayPropertyStore v0.A.3
       RelationshipGroupStore v0.A.3
-2015-03-31 01:40:20.977+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
-2015-03-31 01:40:20.977+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
-2015-03-31 01:40:20.977+0000 INFO  [org.neo4j]: Id usage:
+2015-04-01 18:11:34.972+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2015-04-01 18:11:34.972+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2015-04-01 18:11:34.972+0000 INFO  [org.neo4j]: Id usage:
     Id usage:
       SchemaStore: used=1 high=0
       NodeStore: used=0 high=-1
@@ -270,440 +270,58 @@
       StringPropertyStore: used=1 high=0
       ArrayPropertyStore: used=1 high=0
       RelationshipGroupStore: used=1 high=0
-2015-03-31 01:40:20.978+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
-2015-03-31 01:40:20.978+0000 INFO  [org.neo4j]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
-2015-03-31 01:40:20.978+0000 INFO  [org.neo4j]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
-2015-03-31 01:40:20.979+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
-2015-03-31 01:40:20.979+0000 INFO  [org.neo4j]: Disk space on partition (Total / Free / Free %): 249795969024 / 7777906688 / 3
+2015-04-01 18:11:34.998+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2015-04-01 18:11:34.998+0000 INFO  [org.neo4j]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2015-04-01 18:11:34.998+0000 INFO  [org.neo4j]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2015-04-01 18:11:34.999+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2015-04-01 18:11:34.999+0000 INFO  [org.neo4j]: Disk space on partition (Total / Free / Free %): 249795969024 / 32986501120 / 13
 Storage files: (filename : modification date - size)
-      active_tx_log: 2015-03-30T21:40:20-0400 - 11.00 B
+      active_tx_log: 2015-04-01T14:11:34-0400 - 11.00 B
       index:
-        lucene-store.db: 2015-03-30T21:40:20-0400 - 40.00 B
-        lucene.log.1: 2015-03-30T21:40:20-0400 - 16.00 B
-        lucene.log.active: 2015-03-30T21:40:20-0400 - 4.00 B
-      - Total: 2015-03-30T21:40:20-0400 - 60.00 B
-      lock: 2015-03-30T21:40:20-0400 - 0.00 B
-      messages.log: 2015-03-30T21:40:20-0400 - 24.21 kB
-      neostore: 2015-03-30T21:40:20-0400 - 81.00 B
-      neostore.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      neostore.labeltokenstore.db: 2015-03-30T21:40:20-0400 - 0.00 B
-      neostore.labeltokenstore.db.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      neostore.labeltokenstore.db.names: 2015-03-30T21:40:20-0400 - 38.00 B
-      neostore.labeltokenstore.db.names.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      neostore.nodestore.db: 2015-03-30T21:40:20-0400 - 0.00 B
-      neostore.nodestore.db.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      neostore.nodestore.db.labels: 2015-03-30T21:40:20-0400 - 68.00 B
-      neostore.nodestore.db.labels.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      neostore.propertystore.db: 2015-03-30T21:40:20-0400 - 0.00 B
-      neostore.propertystore.db.arrays: 2015-03-30T21:40:20-0400 - 128.00 B
-      neostore.propertystore.db.arrays.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      neostore.propertystore.db.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      neostore.propertystore.db.index: 2015-03-30T21:40:20-0400 - 0.00 B
-      neostore.propertystore.db.index.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      neostore.propertystore.db.index.keys: 2015-03-30T21:40:20-0400 - 38.00 B
-      neostore.propertystore.db.index.keys.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      neostore.propertystore.db.strings: 2015-03-30T21:40:20-0400 - 128.00 B
-      neostore.propertystore.db.strings.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      neostore.relationshipgroupstore.db: 2015-03-30T21:40:20-0400 - 25.00 B
-      neostore.relationshipgroupstore.db.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      neostore.relationshipstore.db: 2015-03-30T21:40:20-0400 - 0.00 B
-      neostore.relationshipstore.db.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      neostore.relationshiptypestore.db: 2015-03-30T21:40:20-0400 - 0.00 B
-      neostore.relationshiptypestore.db.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      neostore.relationshiptypestore.db.names: 2015-03-30T21:40:20-0400 - 38.00 B
-      neostore.relationshiptypestore.db.names.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      neostore.schemastore.db: 2015-03-30T21:40:20-0400 - 64.00 B
-      neostore.schemastore.db.id: 2015-03-30T21:40:20-0400 - 9.00 B
-      nioneo_logical.log.1: 2015-03-30T21:40:20-0400 - 16.00 B
-      nioneo_logical.log.active: 2015-03-30T21:40:20-0400 - 4.00 B
+        lucene-store.db: 2015-04-01T14:11:34-0400 - 40.00 B
+        lucene.log.1: 2015-04-01T14:11:35-0400 - 16.00 B
+        lucene.log.active: 2015-04-01T14:11:34-0400 - 4.00 B
+      - Total: 2015-04-01T14:11:34-0400 - 60.00 B
+      lock: 2015-04-01T14:11:34-0400 - 0.00 B
+      messages.log: 2015-04-01T14:11:34-0400 - 24.18 kB
+      neostore: 2015-04-01T14:11:34-0400 - 81.00 B
+      neostore.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      neostore.labeltokenstore.db: 2015-04-01T14:11:34-0400 - 0.00 B
+      neostore.labeltokenstore.db.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      neostore.labeltokenstore.db.names: 2015-04-01T14:11:34-0400 - 38.00 B
+      neostore.labeltokenstore.db.names.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      neostore.nodestore.db: 2015-04-01T14:11:34-0400 - 0.00 B
+      neostore.nodestore.db.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      neostore.nodestore.db.labels: 2015-04-01T14:11:34-0400 - 68.00 B
+      neostore.nodestore.db.labels.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      neostore.propertystore.db: 2015-04-01T14:11:34-0400 - 0.00 B
+      neostore.propertystore.db.arrays: 2015-04-01T14:11:34-0400 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      neostore.propertystore.db.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      neostore.propertystore.db.index: 2015-04-01T14:11:34-0400 - 0.00 B
+      neostore.propertystore.db.index.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      neostore.propertystore.db.index.keys: 2015-04-01T14:11:34-0400 - 38.00 B
+      neostore.propertystore.db.index.keys.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      neostore.propertystore.db.strings: 2015-04-01T14:11:34-0400 - 128.00 B
+      neostore.propertystore.db.strings.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      neostore.relationshipgroupstore.db: 2015-04-01T14:11:34-0400 - 25.00 B
+      neostore.relationshipgroupstore.db.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      neostore.relationshipstore.db: 2015-04-01T14:11:34-0400 - 0.00 B
+      neostore.relationshipstore.db.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      neostore.relationshiptypestore.db: 2015-04-01T14:11:34-0400 - 0.00 B
+      neostore.relationshiptypestore.db.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2015-04-01T14:11:34-0400 - 38.00 B
+      neostore.relationshiptypestore.db.names.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      neostore.schemastore.db: 2015-04-01T14:11:34-0400 - 64.00 B
+      neostore.schemastore.db.id: 2015-04-01T14:11:34-0400 - 9.00 B
+      nioneo_logical.log.1: 2015-04-01T14:11:35-0400 - 16.00 B
+      nioneo_logical.log.active: 2015-04-01T14:11:34-0400 - 4.00 B
       schema:
         label:
           lucene:
-            write.lock: 2015-03-30T21:40:20-0400 - 0.00 B
-          - Total: 2015-03-30T21:40:20-0400 - 0.00 B
-        - Total: 2015-03-30T21:40:20-0400 - 0.00 B
-      - Total: 2015-03-30T21:40:20-0400 - 0.00 B
-      store_lock: 2015-03-30T21:40:20-0400 - 0.00 B
-      tm_tx_log.1: 2015-03-30T21:40:20-0400 - 0.00 B
-2015-03-31 01:40:20.993+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
-2015-03-31 01:40:21.054+0000 INFO  [org.neo4j]: Database is now ready
-2015-03-31 02:32:37.768+0000 INFO  [org.neo4j]: Shutdown started
-2015-03-31 02:32:37.771+0000 INFO  [org.neo4j]: Database is now unavailable
-2015-03-31 02:32:37.777+0000 INFO  [org.neo4j]: Closed log neo4j-friend2.0-db/index/lucene.log
-2015-03-31 02:32:37.778+0000 INFO  [org.neo4j]: TM shutting down
-2015-03-31 02:32:37.815+0000 INFO  [org.neo4j]: Closed log neo4j-friend2.0-db/nioneo_logical.log
-2015-03-31 02:32:37.816+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshiptypestore.db.names hit=0 miss=4 switches=0 ooe=0
-2015-03-31 02:32:37.817+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshiptypestore.db hit=0 miss=4 switches=0 ooe=0
-2015-03-31 02:32:37.818+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
-2015-03-31 02:32:37.818+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
-2015-03-31 02:32:37.819+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db.strings hit=41 miss=0 switches=0 ooe=0
-2015-03-31 02:32:37.820+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db.index.keys hit=0 miss=3 switches=0 ooe=0
-2015-03-31 02:32:37.821+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db.index hit=0 miss=3 switches=0 ooe=0
-2015-03-31 02:32:37.822+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
-2015-03-31 02:32:37.823+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.propertystore.db hit=3405 miss=0 switches=0 ooe=0
-2015-03-31 02:32:37.823+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshipstore.db hit=10099 miss=0 switches=0 ooe=0
-2015-03-31 02:32:37.825+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
-2015-03-31 02:32:37.826+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.nodestore.db hit=3528 miss=0 switches=0 ooe=0
-2015-03-31 02:32:37.827+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
-2015-03-31 02:32:37.827+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore.relationshipgroupstore.db hit=0 miss=604 switches=0 ooe=0
-2015-03-31 02:32:37.829+0000 INFO  [org.neo4j]: neo4j-friend2.0-db/neostore hit=0 miss=937 switches=0 ooe=0
-2015-03-31 02:32:37.829+0000 INFO  [org.neo4j]: NeoStore closed
-2015-03-31 02:32:37.830+0000 INFO  [org.neo4j]: --- STOPPING diagnostics START ---
-2015-03-31 02:32:37.830+0000 INFO  [org.neo4j]: --- STOPPING diagnostics END ---
-2015-03-31 02:33:53.126+0000 INFO  [o.n.s.CommunityNeoServer]: Setting startup timeout to: 120000ms based on -1
-2015-03-31 02:33:53.302+0000 INFO  [o.n.k.InternalAbstractGraphDatabase]: No locking implementation specified, defaulting to 'community'
-2015-03-31 02:33:53.413+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
-2015-03-31 02:33:53.415+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
-2015-03-31 02:33:53.419+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=555M
-2015-03-31 02:33:53.419+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipgroupstore.db.mapped_memory=0M
-2015-03-31 02:33:53.419+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=153M
-2015-03-31 02:33:53.419+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=656M
-2015-03-31 02:33:53.420+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=486M
-2015-03-31 02:33:53.420+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db
-2015-03-31 02:33:53.420+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=567M
-2015-03-31 02:33:53.420+0000 INFO  [o.n.k.i.DiagnosticsManager]: remote_shell_enabled=true
-2015-03-31 02:33:53.422+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
-2015-03-31 02:33:53.422+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
-2015-03-31 02:33:53.422+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
-2015-03-31 02:33:53.422+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
-2015-03-31 02:33:53.422+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
-2015-03-31 02:33:53.422+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
-2015-03-31 02:33:53.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
-2015-03-31 02:33:53.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
-2015-03-31 02:33:53.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
-2015-03-31 02:33:53.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
-2015-03-31 02:33:53.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
-2015-03-31 02:33:53.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
-2015-03-31 02:33:53.431+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 8.00 GB
-2015-03-31 02:33:53.433+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 232.26 MB
-2015-03-31 02:33:53.433+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 4.63 GB
-2015-03-31 02:33:53.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 1.00 GB
-2015-03-31 02:33:53.435+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 830.75 MB
-2015-03-31 02:33:53.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
-2015-03-31 02:33:53.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 102.40 MB
-2015-03-31 02:33:53.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 123.75 MB
-2015-03-31 02:33:53.436+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 1.97 GB
-2015-03-31 02:33:53.444+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
-2015-03-31 02:33:53.444+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
-2015-03-31 02:33:53.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=736.94 kB, max=48.00 MB, threshold=0.00 B
-2015-03-31 02:33:53.447+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Eden Space (Heap memory): committed=34.13 MB, used=17.20 MB, max=266.25 MB, threshold=?
-2015-03-31 02:33:53.447+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Survivor Space (Heap memory): committed=4.25 MB, used=4.25 MB, max=33.25 MB, threshold=?
-2015-03-31 02:33:53.448+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: CMS Old Gen (Heap memory): committed=85.38 MB, used=574.39 kB, max=1.68 GB, threshold=0.00 B
-2015-03-31 02:33:53.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: CMS Perm Gen (Non-heap memory): committed=20.75 MB, used=12.89 MB, max=82.00 MB, threshold=0.00 B
-2015-03-31 02:33:53.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
-2015-03-31 02:33:53.450+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Mac OS X; version: 10.10.2; arch: x86_64; cpus: 4
-2015-03-31 02:33:53.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max number of file descriptors: 10240
-2015-03-31 02:33:53.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: Number of open file descriptors: 87
-2015-03-31 02:33:53.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 10368@VincentdeMacBook-Pro.local
-2015-03-31 02:33:53.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
-2015-03-31 02:33:53.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: America/New_York
-2015-03-31 02:33:53.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
-2015-03-31 02:33:53.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
-2015-03-31 02:33:53.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
-2015-03-31 02:33:53.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.65-b04
-2015-03-31 02:33:53.453+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
-2015-03-31 02:33:53.455+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-XX:+DisableExplicitGC, -Dorg.neo4j.server.properties=conf/neo4j-server.properties, -Djava.util.logging.config.file=conf/logging.properties, -Dlog4j.configuration=file:conf/log4j.properties, -XX:+UseConcMarkSweepGC, -XX:+CMSClassUnloadingEnabled, -XX:-OmitStackTraceInFastThrow, -Dneo4j.home=/Users/Vincent/Downloads/neo4j-community-2.1.7, -Dneo4j.instance=/Users/Vincent/Downloads/neo4j-community-2.1.7, -Dfile.encoding=UTF-8]
-2015-03-31 02:33:53.455+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/opencsv-2.3.jar
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/dns_sd.jar
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/sunec.jar
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/commons-digester-1.8.1.jar
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/neo4j-cypher-compiler-2.0-2.0.3.jar
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/slf4j-api-1.6.2.jar
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/vecmath.jar
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/neo4j-server-2.1.7.jar
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/dnsns.jar
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/logback-access-1.1.2.jar
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/opencsv-2.3.jar
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jackson-mapper-asl-1.9.7.jar
-2015-03-31 02:33:53.458+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/neo4j-kernel-2.1.7.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/commons-collections-3.2.1.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3D.jnilib
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/commons-lang-2.4.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/neo4j-shell-2.1.7.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jce.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/parboiled-scala_2.10-1.1.6.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/rt.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/scala-library-2.10.4.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jetty-util-9.0.5.v20130815.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jersey-core-1.9.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jackson-core-asl-1.9.7.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jetty-server-9.0.5.v20130815.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jetty-security-9.0.5.v20130815.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/neo4j-graph-algo-2.1.7.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jetty-io-9.0.5.v20130815.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/neo4j-graph-matching-2.1.7.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3daudio.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jetty-xml-9.0.5.v20130815.jar
-2015-03-31 02:33:53.459+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/neo4j-primitive-collections-2.1.7.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jetty-http-9.0.5.v20130815.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3dcore.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jersey-multipart-1.9.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/parboiled-core-1.1.6.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/commons-logging-1.1.1.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/commons-io-1.4.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/neo4j-lucene-index-2.1.7.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/usr/lib/java/libjdns_sd.jnilib
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/neo4j-cypher-2.1.7.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/commons-compiler-2.6.1.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3dutils.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/jai_core.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jsse.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/asm-3.1.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/commons-beanutils-1.8.0.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/jai_codec.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/logback-classic-1.1.2.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/server-api-2.1.7.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/neo4j-cypher-commons-2.1.7.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jsr311-api-1.1.2.r612.jar
-2015-03-31 02:33:53.460+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/neo4j-cypher-compiler-2.1-2.1.7.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/zipfs.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/commons-beanutils-core-1.8.0.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/neo4j-udc-2.1.7.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/charsets.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jersey-server-1.9.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/bcprov-jdk16-140.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/neo4j-cypher-compiler-1.9-2.0.3.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/resources.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/lucene-core-3.6.2.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/localedata.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/neo4j-browser-2.1.7.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/janino-2.6.1.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/logback-core-1.1.2.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/sunrsasign.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jcl-over-slf4j-1.6.1.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/classes
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jetty-servlet-9.0.5.v20130815.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jackson-jaxrs-1.9.7.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/rhino-1.7R4.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/neo4j-server-2.1.7-static-web.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/geronimo-jta_1.1_spec-1.1.1.jar
-2015-03-31 02:33:53.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/conf/
-2015-03-31 02:33:53.462+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/jetty-webapp-9.0.5.v20130815.jar
-2015-03-31 02:33:53.462+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/rrd4j-2.0.7.jar
-2015-03-31 02:33:53.462+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/javax.servlet-3.0.0.v201112011016.jar
-2015-03-31 02:33:53.462+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/concurrentlinkedhashmap-lru-1.3.1.jar
-2015-03-31 02:33:53.462+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
-2015-03-31 02:33:53.462+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jfr.jar
-2015-03-31 02:33:53.462+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/mimepull-1.6.jar
-2015-03-31 02:33:53.462+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/system/lib/commons-configuration-1.6.jar
-2015-03-31 02:33:53.462+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/Vincent/Downloads/neo4j-community-2.1.7/lib/neo4j-jmx-2.1.7.jar
-2015-03-31 02:33:53.462+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
-2015-03-31 02:33:53.462+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
-2015-03-31 02:33:53.462+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/Vincent/Library/Java/Extensions
-2015-03-31 02:33:53.462+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Library/Java/Extensions
-2015-03-31 02:33:53.462+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Network/Library/Java/Extensions
-2015-03-31 02:33:53.463+0000 INFO  [o.n.k.i.DiagnosticsManager]: /System/Library/Java/Extensions
-2015-03-31 02:33:53.463+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib/java
-2015-03-31 02:33:53.463+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/Vincent/Downloads/neo4j-community-2.1.7
-2015-03-31 02:33:53.463+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
-2015-03-31 02:33:53.463+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.properties = conf/neo4j-server.properties
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: gopherProxySet = false
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = :
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = CN
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = unknown
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = /Users/Vincent/Downloads/neo4j-community-2.1.7
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: log4j.configuration = file:conf/log4j.properties
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = UTF-8
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = /Users/Vincent
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = America/New_York
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = UTF-8
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = Vincent
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = org.neo4j.server.Bootstrapper
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = zh
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.lwawt.macosx.LWCToolkit
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = /
-2015-03-31 02:33:53.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeBig
-2015-03-31 02:33:53.465+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
-2015-03-31 02:33:53.465+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.instance = /Users/Vincent/Downloads/neo4j-community-2.1.7
-2015-03-31 02:33:53.465+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.home = /Users/Vincent/Downloads/neo4j-community-2.1.7
-2015-03-31 02:33:53.465+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = 
-2015-03-31 02:33:53.465+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
-2015-03-31 02:33:53.469+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface awdl0:
-2015-03-31 02:33:53.470+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:4496:bfff:fe85:468%9
-2015-03-31 02:33:53.470+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface en0:
-2015-03-31 02:33:53.470+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:bae8:56ff:fe47:5ad4%4
-2015-03-31 02:33:53.470+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.0.2
-2015-03-31 02:33:53.470+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface lo0:
-2015-03-31 02:33:53.471+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:0:0:1%1
-2015-03-31 02:33:53.471+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
-2015-03-31 02:33:53.471+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
-2015-03-31 02:33:53.471+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
-2015-03-31 02:33:53.711+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=190b)
-2015-03-31 02:33:53.713+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=20b)
-2015-03-31 02:33:53.714+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
-2015-03-31 02:33:53.715+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
-2015-03-31 02:33:53.716+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore.propertystore.db.strings] brickCount=0 brickSize=509568b mappedMem=509607936b (storeSize=2048b)
-2015-03-31 02:33:53.716+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=152b)
-2015-03-31 02:33:53.717+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=27b)
-2015-03-31 02:33:53.718+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore.propertystore.db.arrays] brickCount=0 brickSize=594432b mappedMem=594542592b (storeSize=128b)
-2015-03-31 02:33:53.736+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore.propertystore.db] brickCount=0 brickSize=581954b mappedMem=581959680b (storeSize=23124b)
-2015-03-31 02:33:53.740+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore.relationshipstore.db] brickCount=0 brickSize=687854b mappedMem=687865856b (storeSize=13600b)
-2015-03-31 02:33:53.740+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
-2015-03-31 02:33:53.742+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore.nodestore.db] brickCount=0 brickSize=160425b mappedMem=160432128b (storeSize=4080b)
-2015-03-31 02:33:53.743+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
-2015-03-31 02:33:53.746+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore.relationshipgroupstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=300b)
-2015-03-31 02:33:53.747+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=81b)
-2015-03-31 02:33:54.013+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/nioneo_logical.log.1] version=1, lastTxId=917 (clean)
-2015-03-31 02:33:54.049+0000 INFO  [o.n.k.i.t.TxManager]: TM opening log: /Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/tm_tx_log.1
-2015-03-31 02:33:54.062+0000 INFO  [o.n.k.i.t.KernelHealth]: Kernel health set to OK
-2015-03-31 02:33:54.243+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [/Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db/index/lucene.log.1] version=1, lastTxId=1 (clean)
-2015-03-31 02:33:54.249+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
-2015-03-31 02:33:54.249+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId{creationTime=1427766020531, randomId=8382701200021680568, storeVersion=14406081294923270, upgradeTime=1427766020531, upgradeId=8382701200021680568}
-2015-03-31 02:33:54.249+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.1.7
-2015-03-31 02:33:54.249+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
-2015-03-31 02:33:54.257+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Lucene Index (neo4j-lucene-index), version: 2.1.7; revision: 2.1.7:2.1-maint:649/ed233fc1087f4549d1956b8ec4a504fe2f13a446
-2015-03-31 02:33:54.257+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - JMX support (neo4j-jmx), version: 2.1.7; revision: 2.1.7:2.1-maint:649/ed233fc1087f4549d1956b8ec4a504fe2f13a446
-2015-03-31 02:33:54.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Matching (neo4j-graph-matching), version: 2.1.7; revision: 2.1.7:2.1-maint:649/ed233fc1087f4549d1956b8ec4a504fe2f13a446
-2015-03-31 02:33:54.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 2.1 (neo4j-cypher-compiler-2.1), version: 2.1.7; revision: 2.1.7:2.1-maint:649/ed233fc1087f4549d1956b8ec4a504fe2f13a446
-2015-03-31 02:33:54.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Server API (server-api), version: 2.1.7; revision: 2.1.7:2.1-maint:649/ed233fc1087f4549d1956b8ec4a504fe2f13a446
-2015-03-31 02:33:54.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.1.7; revision: 2.1.7:2.1-maint:649/ed233fc1087f4549d1956b8ec4a504fe2f13a446
-2015-03-31 02:33:54.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher (neo4j-cypher), version: 2.1.7; revision: 2.1.7:2.1-maint:649/ed233fc1087f4549d1956b8ec4a504fe2f13a446
-2015-03-31 02:33:54.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Server (neo4j-server), version: 2.1.7; revision: 2.1.7:2.1-maint:649/ed233fc1087f4549d1956b8ec4a504fe2f13a446
-2015-03-31 02:33:54.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Algorithms (neo4j-graph-algo), version: 2.1.7; revision: 2.1.7:2.1-maint:649/ed233fc1087f4549d1956b8ec4a504fe2f13a446
-2015-03-31 02:33:54.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 2.0 (neo4j-cypher-compiler-2.0), version: 2.0.3; revision: 2.0.3:2.0-maint:72/307c563c11b75fdc71cfa6df05daf9b08d6c37dc
-2015-03-31 02:33:54.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Generic shell (neo4j-shell), version: 2.1.7; revision: 2.1.7:2.1-maint:649/ed233fc1087f4549d1956b8ec4a504fe2f13a446
-2015-03-31 02:33:54.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 1.9 (neo4j-cypher-compiler-1.9), version: 2.0.3; revision: 2.0.3:2.0-maint:72/307c563c11b75fdc71cfa6df05daf9b08d6c37dc
-2015-03-31 02:33:54.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neo4j-udc, version: 2.1.7; revision: 2.1.7:2.1-maint:649/ed233fc1087f4549d1956b8ec4a504fe2f13a446
-2015-03-31 02:33:54.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Commons (neo4j-cypher-commons), version: 2.1.7; revision: 2.1.7:2.1-maint:649/ed233fc1087f4549d1956b8ec4a504fe2f13a446
-2015-03-31 02:33:54.258+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
-2015-03-31 02:33:54.262+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
-2015-03-31 02:33:54.263+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
-2015-03-31 02:33:54.263+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
-2015-03-31 02:33:54.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.3
-2015-03-31 02:33:54.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore v0.A.3
-2015-03-31 02:33:54.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.3
-2015-03-31 02:33:54.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.3
-2015-03-31 02:33:54.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.3
-2015-03-31 02:33:54.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore v0.A.3
-2015-03-31 02:33:54.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.3
-2015-03-31 02:33:54.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.3
-2015-03-31 02:33:54.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.3
-2015-03-31 02:33:54.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.3
-2015-03-31 02:33:54.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipGroupStore v0.A.3
-2015-03-31 02:33:54.264+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
-2015-03-31 02:33:54.264+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
-2015-03-31 02:33:54.264+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
-2015-03-31 02:33:54.264+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
-2015-03-31 02:33:54.264+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore: used=1 high=0
-2015-03-31 02:33:54.265+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=272 high=271
-2015-03-31 02:33:54.265+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=400 high=399
-2015-03-31 02:33:54.265+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=4 high=3
-2015-03-31 02:33:54.265+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore: used=0 high=-1
-2015-03-31 02:33:54.265+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=564 high=563
-2015-03-31 02:33:54.266+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=3 high=2
-2015-03-31 02:33:54.266+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=16 high=15
-2015-03-31 02:33:54.266+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
-2015-03-31 02:33:54.266+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipGroupStore: used=12 high=11
-2015-03-31 02:33:54.266+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
-2015-03-31 02:33:54.266+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
-2015-03-31 02:33:54.267+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
-2015-03-31 02:33:54.267+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
-2015-03-31 02:33:54.268+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 249795969024 / 7639433216 / 3
-Storage files: (filename : modification date - size)
-2015-03-31 02:33:54.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:   active_tx_log: 2015-03-30T22:24:36-0400 - 11.00 B
-2015-03-31 02:33:54.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
-2015-03-31 02:33:54.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene-store.db: 2015-03-30T22:32:37-0400 - 40.00 B
-2015-03-31 02:33:54.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.1: 2015-03-30T22:33:54-0400 - 16.00 B
-2015-03-31 02:33:54.271+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.active: 2015-03-30T22:33:54-0400 - 4.00 B
-2015-03-31 02:33:54.271+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.v0: 2015-03-30T22:32:37-0400 - 16.00 B
-2015-03-31 02:33:54.271+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2015-03-30T22:33:54-0400 - 76.00 B
-2015-03-31 02:33:54.272+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2015-03-30T22:33:53-0400 - 0.00 B
-2015-03-31 02:33:54.272+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2015-03-30T22:33:54-0400 - 67.58 kB
-2015-03-31 02:33:54.272+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2015-03-30T22:33:53-0400 - 81.00 B
-2015-03-31 02:33:54.272+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2015-03-30T22:33:53-0400 - 9.00 B
-2015-03-31 02:33:54.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db: 2015-03-30T22:33:53-0400 - 0.00 B
-2015-03-31 02:33:54.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.id: 2015-03-30T22:33:53-0400 - 9.00 B
-2015-03-31 02:33:54.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names: 2015-03-30T22:33:53-0400 - 38.00 B
-2015-03-31 02:33:54.274+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names.id: 2015-03-30T22:33:53-0400 - 9.00 B
-2015-03-31 02:33:54.274+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2015-03-30T22:33:53-0400 - 3.98 kB
-2015-03-31 02:33:54.274+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2015-03-30T22:33:53-0400 - 9.00 B
-2015-03-31 02:33:54.275+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels: 2015-03-30T22:33:53-0400 - 68.00 B
-2015-03-31 02:33:54.275+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels.id: 2015-03-30T22:33:53-0400 - 9.00 B
-2015-03-31 02:33:54.275+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2015-03-30T22:33:53-0400 - 22.58 kB
-2015-03-31 02:33:54.276+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2015-03-30T22:33:53-0400 - 128.00 B
-2015-03-31 02:33:54.276+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2015-03-30T22:33:53-0400 - 9.00 B
-2015-03-31 02:33:54.276+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2015-03-30T22:33:53-0400 - 9.00 B
-2015-03-31 02:33:54.277+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2015-03-30T22:33:53-0400 - 27.00 B
-2015-03-31 02:33:54.277+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2015-03-30T22:33:53-0400 - 9.00 B
-2015-03-31 02:33:54.278+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2015-03-30T22:33:53-0400 - 152.00 B
-2015-03-31 02:33:54.278+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2015-03-30T22:33:53-0400 - 9.00 B
-2015-03-31 02:33:54.278+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2015-03-30T22:33:53-0400 - 2.00 kB
-2015-03-31 02:33:54.279+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2015-03-30T22:33:53-0400 - 9.00 B
-2015-03-31 02:33:54.279+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipgroupstore.db: 2015-03-30T22:33:53-0400 - 300.00 B
-2015-03-31 02:33:54.279+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipgroupstore.db.id: 2015-03-30T22:33:53-0400 - 9.00 B
-2015-03-31 02:33:54.280+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2015-03-30T22:33:53-0400 - 13.28 kB
-2015-03-31 02:33:54.280+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2015-03-30T22:33:53-0400 - 857.00 B
-2015-03-31 02:33:54.280+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2015-03-30T22:33:53-0400 - 20.00 B
-2015-03-31 02:33:54.280+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2015-03-30T22:33:53-0400 - 9.00 B
-2015-03-31 02:33:54.281+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2015-03-30T22:33:53-0400 - 190.00 B
-2015-03-31 02:33:54.281+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2015-03-30T22:33:53-0400 - 9.00 B
-2015-03-31 02:33:54.281+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db: 2015-03-30T22:33:53-0400 - 64.00 B
-2015-03-31 02:33:54.282+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db.id: 2015-03-30T22:33:53-0400 - 9.00 B
-2015-03-31 02:33:54.282+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.1: 2015-03-30T22:33:54-0400 - 16.00 B
-2015-03-31 02:33:54.282+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.active: 2015-03-30T22:33:54-0400 - 4.00 B
-2015-03-31 02:33:54.283+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.v0: 2015-03-30T22:32:37-0400 - 347.11 kB
-2015-03-31 02:33:54.283+0000 INFO  [o.n.k.i.DiagnosticsManager]:   schema:
-2015-03-31 02:33:54.283+0000 INFO  [o.n.k.i.DiagnosticsManager]:     label:
-2015-03-31 02:33:54.283+0000 INFO  [o.n.k.i.DiagnosticsManager]:       lucene:
-2015-03-31 02:33:54.283+0000 INFO  [o.n.k.i.DiagnosticsManager]:         segments.gen: 2015-03-30T22:32:37-0400 - 20.00 B
-2015-03-31 02:33:54.284+0000 INFO  [o.n.k.i.DiagnosticsManager]:         segments_1: 2015-03-30T22:32:37-0400 - 32.00 B
-2015-03-31 02:33:54.284+0000 INFO  [o.n.k.i.DiagnosticsManager]:         write.lock: 2015-03-30T22:33:53-0400 - 0.00 B
-2015-03-31 02:33:54.284+0000 INFO  [o.n.k.i.DiagnosticsManager]:       - Total: 2015-03-30T22:33:53-0400 - 52.00 B
-2015-03-31 02:33:54.285+0000 INFO  [o.n.k.i.DiagnosticsManager]:     - Total: 2015-03-30T21:40:20-0400 - 52.00 B
-2015-03-31 02:33:54.285+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2015-03-30T21:40:20-0400 - 52.00 B
-2015-03-31 02:33:54.285+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2015-03-30T21:40:20-0400 - 0.00 B
-2015-03-31 02:33:54.285+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.1: 2015-03-30T22:33:54-0400 - 0.00 B
-2015-03-31 02:33:54.286+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.2: 2015-03-30T22:24:36-0400 - 32.59 kB
-2015-03-31 02:33:54.286+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
-2015-03-31 02:33:54.339+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now ready
-2015-03-31 02:33:55.117+0000 INFO  [o.n.s.d.LifecycleManagingDatabase]: Successfully started database
-2015-03-31 02:33:55.118+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED START ---
-2015-03-31 02:33:55.200+0000 INFO  [o.n.s.CommunityNeoServer]: Starting HTTP on port :7474 with 40 threads available
-2015-03-31 02:33:55.470+0000 INFO  [o.n.s.CommunityNeoServer]: Enabling HTTPS on port :7473
-2015-03-31 02:33:55.563+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for org.neo4j.server.configuration.Configurator START ---
-2015-03-31 02:33:55.565+0000 INFO  [o.n.k.i.DiagnosticsManager]: Server configuration:
-2015-03-31 02:33:55.565+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.database.location = /Users/Vincent/Desktop/twitterAnalysis_visionkan/SinaMaven/neo4j-friend2.0-db
-2015-03-31 02:33:55.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.port = 7474
-2015-03-31 02:33:55.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.enabled = true
-2015-03-31 02:33:55.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.port = 7473
-2015-03-31 02:33:55.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.cert.location = conf/ssl/snakeoil.cert
-2015-03-31 02:33:55.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.key.location = conf/ssl/snakeoil.key
-2015-03-31 02:33:55.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.keystore.location = data/keystore
-2015-03-31 02:33:55.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webadmin.rrdb.location = data/rrd
-2015-03-31 02:33:55.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.db.tuning.properties = conf/neo4j.properties
-2015-03-31 02:33:55.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.manage.console_engines = shell
-2015-03-31 02:33:55.566+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.http.log.enabled = false
-2015-03-31 02:33:55.567+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.http.log.config = conf/neo4j-http-logging.xml
-2015-03-31 02:33:55.567+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webadmin.management.uri = /db/manage/
-2015-03-31 02:33:55.567+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webadmin.data.uri = /db/data/
-2015-03-31 02:33:55.567+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for org.neo4j.server.configuration.Configurator END ---
-2015-03-31 02:33:55.584+0000 INFO  [o.n.s.m.DiscoveryModule]: Mounted discovery module at [/]
-2015-03-31 02:33:55.593+0000 INFO  [o.n.s.m.RESTApiModule]: Mounted REST API at [/db/data/]
-2015-03-31 02:33:55.597+0000 INFO  [o.n.s.m.ManagementApiModule]: Mounted management API at [/db/manage/]
-2015-03-31 02:33:55.598+0000 INFO  [o.n.s.m.WebAdminModule]: Mounted webadmin at [/webadmin]
-2015-03-31 02:33:55.598+0000 INFO  [o.n.s.m.Neo4jBrowserModule]: Mounted Neo4j Browser at [/browser]
-2015-03-31 02:33:55.690+0000 INFO  [o.n.s.w.Jetty9WebServer]: Mounting static content at [/webadmin] from [webadmin-html]
-2015-03-31 02:33:55.757+0000 INFO  [o.n.s.w.Jetty9WebServer]: Mounting static content at [/browser] from [browser]
-2015-03-31 02:33:57.250+0000 INFO  [o.n.s.CommunityNeoServer]: Server started on: http://localhost:7474/
-2015-03-31 02:33:57.250+0000 INFO  [o.n.s.CommunityNeoServer]: Remote interface ready and available at [http://localhost:7474/]
-2015-03-31 02:33:57.250+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED END ---
-2015-03-31 07:22:37.043+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for 3594347ms.
-2015-03-31 09:11:22.101+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for 6475432ms.
-2015-03-31 11:00:07.023+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for 6474662ms.
-2015-03-31 12:48:52.019+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for 6475814ms.
-2015-03-31 13:48:59.016+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for 3556692ms.
-2015-03-31 15:25:08.100+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for 4085793ms.
+            write.lock: 2015-04-01T14:11:34-0400 - 0.00 B
+          - Total: 2015-04-01T14:11:34-0400 - 0.00 B
+        - Total: 2015-04-01T14:11:35-0400 - 0.00 B
+      - Total: 2015-04-01T14:11:34-0400 - 0.00 B
+      store_lock: 2015-04-01T14:11:34-0400 - 0.00 B
+      tm_tx_log.1: 2015-04-01T14:11:34-0400 - 0.00 B

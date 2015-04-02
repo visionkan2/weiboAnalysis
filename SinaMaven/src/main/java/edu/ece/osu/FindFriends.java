@@ -59,7 +59,7 @@ public class FindFriends {
         String name = getScreenName(allposts);
         int maxpage = getPostPageNum(allposts);
         if(maxpage>25) maxpage = 25;
-        if(db.findById(id)==null) db.createNode(id,name,"0");
+        if(db.findById(id)==null) db.createNode(id,name,"0",1);
         //traverse all pages of posts
         for(int cur_page_post = 1;cur_page_post <= maxpage; cur_page_post++){
             Thread.sleep(1000*10);
@@ -93,8 +93,9 @@ public class FindFriends {
                         String followerName = reply.getJSONObject("user").getString("screen_name");
 
                         if(!followerId.equals(id)){
-                            num_repliers++;
+
                             if(!followers.containsKey(followerId)){
+                                num_repliers++;
                                 followers.put(followerId,1);
                                 addToGraph(id, followerId, followerName,"KNOW","0");
                                 System.out.println("No." + num_repliers + " follower: " + followerId + " " + followerName + " add to "+ id +" "+ name+" as KNOW.");
@@ -126,6 +127,8 @@ public class FindFriends {
 
         }
         System.out.println("number of repliers: "+ num_repliers);
+        Node cur = db.findById(id);
+        db.updataIndegree(cur,num_repliers);
     }
 
     private String getScreenName(String postUrl){
@@ -164,20 +167,19 @@ public class FindFriends {
     private void addToGraph(String preId, String curId, String screen_name, String relType, String relNum){
         Node cur;
         if(db.findById(curId)==null){
-            cur = db.createNode(curId,screen_name,relNum);
+            cur = db.createNode(curId,screen_name,relNum,1);
         }else {
             cur = db.findById(curId);
-            db.UpdateRelNum(cur, relNum);
+            db.updateRelNum(cur, relNum);//record the max realNum of one user
         }
         Node pre = db.findById(preId);
-        db.UpdateRelNum(pre,relNum);
+        db.updateRelNum(pre,relNum);
         Relationship rel = db.findRelByNodes(pre,cur);
-        if(rel == null){
-            db.addrel(pre,cur,"KNOW");
-        }else{
+        if(rel != null){
             db.deleteRel(pre,cur);
-            db.addrel(pre,cur,relType);
         }
+        db.addrel(pre,cur,relType);
+
     }
 
 
