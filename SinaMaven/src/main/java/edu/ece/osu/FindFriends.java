@@ -40,17 +40,16 @@ public class FindFriends {
         db.cleanDb();
         db.createDb();
 
-        searchFromOne("1881186552",cookies);
-        searchFromOne("1686829752",cookies);
-        searchFromOne("2804073892",cookies);
-        searchFromOne("1968712865",cookies);
-        searchFromOne("1955174322",cookies);
-        searchFromOne("1354705323",cookies);
+        searchFromOne("1821296932",cookies,1);//nostalgicDec
+//        searchFromOne("1661049623",cookies,1);//1chigoichie
+//        searchFromOne("1354705323",cookies);//jaishang
+
 
 
 
     }
-    public void searchFromOne(String id, String cookies) throws JSONException, IOException, InterruptedException {
+    public void searchFromOne(String id, String cookies, Integer level) throws JSONException, IOException, InterruptedException {
+        if(level == 0) return;
         int num_repliers = 0;
 
         String userid = "100505"+id;
@@ -110,6 +109,7 @@ public class FindFriends {
                             if(followers.get(followerId)==10){
                                 addToGraph(id, followerId, followerName,"FRIEND2","2");
                                 System.out.println("No." + num_repliers + " follower: " + followerId + " " + followerName + " add to "+ id +" "+ name+" as FRIEND (LEVEL 2).");
+                                searchFromOne(followerId, cookies, level-1);
                             }
 
                             if(followers.get(followerId)==18){
@@ -129,6 +129,13 @@ public class FindFriends {
         System.out.println("number of repliers: "+ num_repliers);
         Node cur = db.findById(id);
         db.updataIndegree(cur,num_repliers);
+//        HashMap<String, Integer> fakeFollower = new HashMap<>(followers);
+//
+//        for(String fid : fakeFollower.keySet()){
+//            if(fakeFollower.get(fid)>=10 && level>0){
+//                searchFromOne(fid,cookies,level-1);
+//            }
+//        }
     }
 
     private String getScreenName(String postUrl){

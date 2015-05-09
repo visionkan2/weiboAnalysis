@@ -17,7 +17,7 @@ import javax.management.relation.Relation;
  */
 public class EmbeddedNeo4j {
 //    private static final String DB_PATH = "neo4j-friend-db";
-    private static final String DB_PATH = "neo4j-friend2.0-db";
+    private static final String DB_PATH = "neo4j-tn3-db";
     GraphDatabaseService graphDb;
     private static enum RelTypes implements RelationshipType {
         REPOST,
@@ -52,11 +52,25 @@ public class EmbeddedNeo4j {
             res.setProperty("id", id);
             res.setProperty("name", screen_name);
             res.setProperty("relation", relation);
-            res.setProperty("indegree",indegree);
+//            res.setProperty("indegree",indegree);
             tx.success();
 
         }
         return res;
+    }
+
+    public Node createTwitterNode(String name, String relation){
+        Node res = null;
+        try (Transaction tx = graphDb.beginTx()) {
+            res = graphDb.createNode();
+            res.setProperty("name", name);
+            res.setProperty("relation", relation);
+//            res.setProperty("indegree",indegree);
+            tx.success();
+
+        }
+        return res;
+
     }
 
 //    public Node createNode(String id, String screen_name, String time){
